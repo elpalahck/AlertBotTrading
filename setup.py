@@ -1,0 +1,19 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="tradingview-telegram-bot",
+    version="1.0.0",
+    packages=find_packages(),
+    install_requires=[
+        "email-validator>=2.2.0",
+        "flask>=3.1.0",
+        "flask-sqlalchemy>=3.1.1",
+        "gunicorn>=23.0.0",
+        "psycopg2-binary>=2.9.10",
+        "requests>=2.32.3",
+        "sqlalchemy>=2.0.40",
+        "trafilatura>=2.0.0",
+        "werkzeug>=3.1.3",
+    ],
+    python_requires=">=3.7",
+)
